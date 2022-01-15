@@ -1,0 +1,38 @@
+div.heading {
+    margin: 2%;
+}
+
+body div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.invisible {
+    opacity: 0%;
+}
+
+.invisible:hover .hover {
+    opacity: 100%
+}
+
+body.main{
+    background-image: url(/images/backgroundPaint.jpeg); 
+  background-size: 106%;
+
+}
+body.side{
+    background-image: url(/images/colorBackground.jpeg);
+background-size: 100%;
+        background-repeat: no-repeat;
+}
+div.left {
+    position: fixed; bottom: 15px;
+}
+div.right {
+    position:fixed; bottom: 15px; right: 1%;
+}
+div.centered {
+    text-align: center;
+}
